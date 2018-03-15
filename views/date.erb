@@ -4,6 +4,8 @@
     <title>Today's Date</title>
   </head>
   <body>
-    <p>Test</p>
+    <% require 'date' %>
+    <% todays_date =  DateTime.new %>
+    <p><%= "The date is #{todays_date}" %></p>
   </body>
 </html>
